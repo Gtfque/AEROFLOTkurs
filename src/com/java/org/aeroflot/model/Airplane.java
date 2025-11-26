@@ -2,8 +2,8 @@ package org.aeroflot.model;
 
 public class Airplane {
     private String model;
-    private int capacity; // вместимость
-    private int range;    // дальность полета
+    private int capacity;
+    private int range;
 
     public Airplane(String model, int capacity, int range) {
         this.model = model;
@@ -25,6 +25,6 @@ public class Airplane {
 
     @Override
     public String toString() {
-        return "Airplane [Model=" + model + ", Capacity=" + capacity + ", Range=" + range + "]";
+        return "Airplane [Model=" + model + ", Capacity=" + capacity + ", Range=" + range + " км]";
     }
 }

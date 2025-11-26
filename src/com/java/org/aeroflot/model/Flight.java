@@ -37,7 +37,10 @@ public class Flight {
 
     @Override
     public String toString() {
-        return "Flight [FlightNumber=" + flightNumber + ", Airplane=" + airplane + ", Crew=" + crew + ", Cancelled=" + isCancelled + "]";
+        return "Flight [FlightNumber=" + flightNumber +
+                ", Airplane=" + airplane +
+                ", Crew=" + crew +
+                ", Cancelled=" + isCancelled + "]";
     }
 }
 

@@ -2,7 +2,7 @@ package org.aeroflot.model;
 
 public abstract class CrewMember {
     private String name;
-    private String role;  // роль в экипаже (например, пилот, штурман и т.д.)
+    private String role;
 
     public CrewMember(String name, String role) {
         this.name = name;
@@ -22,4 +22,3 @@ public abstract class CrewMember {
         return role + ": " + name;
     }
 }
-
